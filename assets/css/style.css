@@ -17,7 +17,7 @@ header{
 }
 
 .header{
-    max-width: 100%;
+    max-width: 96%;
     height: 100px;
     margin: auto;
     display: flex;
@@ -29,8 +29,8 @@ header{
 }
 
 .logoimg {
-    width: 210px;
-    height: 150px;
+    width: 180px;
+    height: 70px;
     display: flex;
 }
 
@@ -119,6 +119,11 @@ header{
     flex-direction: column;
 }
 
+.slidearea strong {
+    color:#8B0000;
+    font-size: 1.5em;
+  }
+
 .banner  h1 {
     text-transform: uppercase;
     font-weight: bold;
@@ -182,6 +187,8 @@ header{
     margin-bottom: 40px;
 }
 
+
+
 .default .section-body{
     max-width: 1140px;
     margin:auto;
@@ -207,8 +214,9 @@ header{
 }
 
 
-
-
+.section-title{
+  font-size: 120px;
+}
 
 
 
