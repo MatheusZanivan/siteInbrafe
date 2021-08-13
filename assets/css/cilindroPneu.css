@@ -202,13 +202,25 @@ header{
     background-color: #f7f7f7;
 }
 
-.default.light .section-title,
+.default.light,
 .default .section-body{
     color: #000;
 }
 
-.default.dark{
-    background-color:#000 ;
+.section-title {
+    color: #FFF;
+}
+
+.section-service h4{
+    color: #FFF;
+}
+
+.section-service p {
+    color: #FFF;
+}
+
+.default.red{
+    background-color:#8b0000de;
 }
 
 .default.dark .section-title,
@@ -220,6 +232,10 @@ header{
 
 .section-title{
   font-size: 120px;
+}
+
+section-title-black{
+    
 }
 
 /*
@@ -247,4 +263,35 @@ header{
 .section-aboutus--right img {
     width: 480px;
     
+}
+
+.section-services{
+    display: flex;
+}
+
+.section-service {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #333;
+    padding: 15px;
+}
+
+.section-service:first-child{
+    border-left: 1px solid #333;
+}
+
+.section-service img {
+    width: 80px;
+}
+
+.section-service h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-service p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #FFF;
 }
