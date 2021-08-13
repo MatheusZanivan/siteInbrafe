@@ -23,6 +23,10 @@ header{
     display: flex;
     align-items: center;
 }
+#pag-atual{
+  border-bottom: 5px solid #8B0000;
+  color:gray;
+}
 
 .logo{
     width: 100px;
