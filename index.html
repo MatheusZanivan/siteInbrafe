@@ -460,20 +460,20 @@
                         
                         <div class="section-form--area">
 
-                          <form method="POST" action="./email.php"> 
+                          <form> 
                             <label>
                               <input type="text" name="name" placeholder="Nome">
-                              <input type="email" name="email" placeholder="email">
+                              <input type="email" name="email" placeholder="email" data-form-email>
                             </label>
               
                             <label>
-                              <input type="" name="subject" placeholder="Assunto">
+                              <input type="" name="subject" placeholder="Assunto" data-form-subject>
                             </label>
               
                             <label>
-                              <input type="text" name="message" placeholder="mensagem">
+                              <input type="text" name="message" placeholder="mensagem" data-form-text>
                             </label>
-                            <input style="background-color: #8b0000; display: inline-block; color: #fff; text-transform: uppercase; font-size: 12px; font-weight: 600; text-decoration: none; padding: 10px 30px; margin-top: 30px; border-radius: 20px; cursor: pointer;" type="submit" value="Enviar Email">
+                            <input style="background-color: #8b0000; display: inline-block; color: #fff; text-transform: uppercase; font-size: 12px; font-weight: 600; text-decoration: none; padding: 10px 30px; margin-top: 30px; border-radius: 20px; cursor: pointer;" type="submit" value="Enviar Email" data-form-button>
                           </form>
                          
                         </div> 
@@ -582,5 +582,7 @@
     </a>
   </footer>
 
+
+    <script src="email/app.js"></script>
     </body>
 </html>
