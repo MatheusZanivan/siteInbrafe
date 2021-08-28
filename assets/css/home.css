@@ -99,6 +99,7 @@ header{
 .banner {
     height: calc(113vh - 100px);
     background-color: #333;
+    top: 100px;
     background-image: url('../images/DSC00085.JPG');
     background-size: cover;
     background-position: bottom;
@@ -114,7 +115,7 @@ header{
     width: 100vw;
     height: 100%;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .banner .slidearea{
@@ -692,7 +693,7 @@ header{
   
 .section-premium--desc {
     margin-left: 50px;
-    color: #999;
+    color: #000;
     line-height: 30px;
   }
   
@@ -889,7 +890,7 @@ header{
 .section-map--info-item{
     display: flex;
     align-items: center;
-    color: #999;
+    color: #000;
     margin-bottom: 10px;
 }
 
