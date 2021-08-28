@@ -96,9 +96,10 @@ header{
 }
 
 .banner {
-    position: fixed ;
+    height: calc(113vh - 100px);
+    background-color: #333;
     top: 100px;
-    height: calc(112vh - 100px);
+    
     background-color: #333;
     background-image: url('../images/bg.jpg');
     background-size: cover;
@@ -224,7 +225,13 @@ header{
 }
 
 .default.red{
-    background-color:#8b0000de;
+    background: linear-gradient(#8B0000,#000);
+}
+.default.black{
+    background: #000;
+}
+.default.black.two{
+    background: linear-gradient(#000 );
 }
 
 .default.dark .section-title,
@@ -238,9 +245,6 @@ header{
   font-size: 120px;
 }
 
-section-title-black{
-    
-}
 
 /*
     CSS de áreas especificas 
@@ -257,6 +261,7 @@ section-title-black{
 .section-aboutus--left p {
     font-size: 14px;
     line-height: 25px;
+    margin-top: 60px;
 }
 
 .section-aboutus--right{
@@ -299,3 +304,116 @@ section-title-black{
     font-size: 13px;
     color: #FFF;
 }
+
+footer {
+    background-color: #fff;
+  }
+  
+.footer-area {
+    display: flex;
+    max-width: 1140px;
+    height: 280px;
+    margin: auto;
+  }
+  
+.footer-area1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+.footer-area-item {
+    display: flex;
+  }
+  
+.footer-social {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #999;
+    border-radius: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+.footer-social:hover {
+    background-color: #8B0000;
+  }
+  
+.footer-social:nth-child(7) a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 23px;
+  }
+  
+.footer-social img {
+    width: 15px;
+    height: auto;
+  }
+
+.footer-social:nth-child(4) img{
+    width: 10px;
+}
+  
+.footer-copy {
+    display: flex;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+  }
+  
+.footer-area2 {
+    display: flex;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+  }
+  
+.footer-area3{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.footer-area3 form{
+    width: 300px;
+    padding: 30px;
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.footer-area3 label input{
+    width: 180px;
+    font-size: 18px;
+    color: #999;
+    padding: 20px;
+    background-color: #333;
+    border:none;
+    border-bottom: 1px solid #999;
+  }
+  
+.footer-area input::placeholder {
+    color: #CCC;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+.footer-area3 form a {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 25px auto 15px;
+  }
+  
+input:focus {
+    border: none;
+    border-bottom: 1px solid #999;
+  }
