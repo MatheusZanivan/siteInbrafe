@@ -96,11 +96,12 @@ header{
 }
 
 .banner {
-    position: fixed ;
-    top: 100px;
-    height: calc(112vh - 100px);
+    height: calc(113vh - 100px);
     background-color: #333;
-    background-image: url('../images/bg.jpg');
+    top: 100px;
+    
+    background-color: #333;
+    background-image: url('../images/hidra.png');
     background-size: cover;
     background-position: bottom;
     overflow: hidden;
@@ -182,6 +183,16 @@ header{
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
+}
+
+.hidralist{
+    list-style: none;
+    text-align: center;
+}
+
+.hidralist li {
+    padding-top: 15px;
+    font-weight: bold;
 }
 
 .default .section-title{
