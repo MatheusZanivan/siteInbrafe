@@ -125,11 +125,12 @@ header{
     color: white;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 200px;
 }
 
 .slidearea strong {
     color:#8B0000;
-    font-size: 1.5em;
+    font-size: 50px;
   }
 
 .banner  h1 {
