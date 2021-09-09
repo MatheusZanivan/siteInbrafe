@@ -171,7 +171,148 @@ header{
 .banner .pointer.active {
     background-color: #8B0000;
 }
+/*--------------
+.bannerm {
+  height: calc(113vh - 100px);
+  top: 100px;
+  background-color: #000;
+  background-size: cover;
+  background-position: bottom;
+  overflow: hidden;
+}
 
+.bannerm .sliders {
+  width: 1000vw;
+  height: 100%;
+}
+
+.bannerm .slide {
+  width: 100vw;
+  height: 100%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.bannerm .slidearea{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.bannerm  h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.bannerm h1 span {
+  color:#8B0000;
+}   
+
+.bannerm h2 {
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.bannerm .sliders-pointers{
+  width: 100vw;
+  height: 20px;
+  position: absolute;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerm .pointer {
+  height: 15px;
+  width: 15px;
+  border: 2px solid #8B0000;
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.bannerm .pointer.active {
+  background-color: #8B0000;
+}
+
+.bannersa {
+  height: calc(113vh - 100px);
+  top: 100px;
+  background-color: #000;
+  background-size: cover;
+  background-position: bottom;
+  overflow: hidden;
+}
+
+.bannersa .sliders {
+  width: 1000vw;
+  height: 100%;
+}
+
+.bannersa .slide {
+  width: 100vw;
+  height: 100%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.bannersa .slidearea{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+.bannersa  h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.bannersa h1 span {
+  color:#8B0000;
+}   
+
+.bannersa h2 {
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.bannersa .sliders-pointers{
+  width: 100vw;
+  height: 20px;
+  position: absolute;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannersa .pointer {
+  height: 15px;
+  width: 15px;
+  border: 2px solid #8B0000;
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.bannersa .pointer.active {
+  background-color: #8B0000;
+}
+*/
 .default {
 
     padding-top: 50px;
@@ -1257,7 +1398,7 @@ input:focus {
 .banner .slidearea h1{
     font-size: 500px;
 }
-/*about us*/
+about us*/
 .section-aboutus {
     flex-direction: column;
     }

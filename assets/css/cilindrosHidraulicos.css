@@ -97,11 +97,8 @@ header{
 
 .banner {
     height: calc(113vh - 100px);
-    background-color: #333;
+    background-color: #000;
     top: 100px;
-    
-    background-color: #333;
-    background-image: url('../images/hidra.png');
     background-size: cover;
     background-position: bottom;
     overflow: hidden;
@@ -185,16 +182,6 @@ header{
     font-weight: 600;
 }
 
-.hidralist{
-    list-style: none;
-    text-align: center;
-}
-
-.hidralist li {
-    padding-top: 15px;
-    font-weight: bold;
-}
-
 .default .section-title{
     font-size: 20px;
 }
@@ -217,25 +204,44 @@ header{
     background-color: #f7f7f7;
 }
 
-.default.light .section-title,
+.default.light,
 .default .section-body{
     color: #000;
 }
 
-.default.dark{
-    background-color:#000 ;
+.section-title {
+    color: #000;
+}
+
+.section-service h4{
+    color: #FFF;
+}
+
+.section-service p {
+    color: #FFF;
+}
+
+.default.red{
+    background: linear-gradient(#8B0000,#000);
+}
+.default.black{
+    background: #000;
+}
+.default.black.two{
+    background: linear-gradient(#000 );
 }
 
 .default.dark .section-title,
 .default.dark .section-body
 {
-    color: #FFF;
+    color: #000;
 }
 
 
 .section-title{
   font-size: 120px;
 }
+
 
 /*
     CSS de áreas especificas 
@@ -252,6 +258,7 @@ header{
 .section-aboutus--left p {
     font-size: 14px;
     line-height: 25px;
+    margin-top: 60px;
 }
 
 .section-aboutus--right{
@@ -263,3 +270,147 @@ header{
     width: 480px;
     
 }
+
+.section-services{
+    display: flex;
+}
+
+.section-service {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #333;
+    padding: 15px;
+}
+
+.section-service:first-child{
+    border-left: 1px solid #333;
+}
+
+.section-service img {
+    width: 80px;
+}
+
+.section-service h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-service p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #FFF;
+}
+
+footer {
+    background-color: #fff;
+  }
+  
+.footer-area {
+    display: flex;
+    max-width: 1140px;
+    height: 280px;
+    margin: auto;
+  }
+  
+.footer-area1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+.footer-area-item {
+    display: flex;
+  }
+  
+.footer-social {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #999;
+    border-radius: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+.footer-social:hover {
+    background-color: #8B0000;
+  }
+  
+.footer-social:nth-child(7) a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 23px;
+  }
+  
+.footer-social img {
+    width: 15px;
+    height: auto;
+  }
+
+.footer-social:nth-child(4) img{
+    width: 10px;
+}
+  
+.footer-copy {
+    display: flex;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+  }
+  
+.footer-area2 {
+    display: flex;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+  }
+  
+.footer-area3{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.footer-area3 form{
+    width: 300px;
+    padding: 30px;
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.footer-area3 label input{
+    width: 180px;
+    font-size: 18px;
+    color: #999;
+    padding: 20px;
+    background-color: #333;
+    border:none;
+    border-bottom: 1px solid #999;
+  }
+  
+.footer-area input::placeholder {
+    color: #CCC;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+.footer-area3 form a {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 25px auto 15px;
+  }
+  
+input:focus {
+    border: none;
+    border-bottom: 1px solid #999;
+  }
