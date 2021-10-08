@@ -221,6 +221,10 @@ header{
     color: #FFF;
 }
 
+.section-service img {
+    height: 250px;
+}
+
 .default.red{
     background: linear-gradient(#8B0000,#000);
 }
