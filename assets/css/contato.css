@@ -192,6 +192,44 @@ header{
     margin-top: 10px;
     margin-bottom: 40px;
 }
+.section-form--area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.section-form--area form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.section-form--area label {
+    margin-bottom: 30px;
+  }
+  
+.section-form--area input {
+    font-size: 20px;
+    width: 280px;
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    background-color: #F7F7F7;
+  }
+  
+.section-form--area input:first-child {
+    margin-right: 30px;
+  }
+  
+.section-form--area input::placeholder {
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  
+.section-form--area label:nth-child(2) input:nth-child(1),
+.section-form--area label:nth-child(3) input:nth-child(1) {
+    width: 100%;
+  }
 
 
 
