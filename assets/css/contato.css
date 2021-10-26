@@ -264,8 +264,8 @@ header{
 
 .column {
     float: left;
-    width: 20%;
-    margin-left: 10%;
+    width: 15%;
+    margin-left: 8.5%;
     text-align: center;
     padding-top: 5%;
     transition: transform .4s;
